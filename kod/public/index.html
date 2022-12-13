@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+/*
+
+Student: Beatrice Björn
+Senast uppdaterad: 2022-12-13
+För: Moment 3.3 - DT162G - Javascriptbaserad webbutveckling
+
+*/
+-->
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Javascriptbaserad webbutveckling</title>
+</head>
+
+<body>
+  <header><h1>Moment 2 - DT162G - Javascriptbaserad webbutveckling</h1></header>
+  <form id="myform" method="post">
+		<div id="kurs"></div>
+		<br />
+    <h2>Lägg till kurs</h2>
+		<label for="id">Kurskod: </label><br /> <input type="text" name="id" id="id" /> <br />
+			<label for="name">Kursnamn: </label><br /><input type="text" name="name" id="name" /> <br />
+				<label for="period">Progression: </label><br /><input type="text" name="progression" id="progression" /> <br />
+                <label for="semester">Termin: </label><br /><input type="text" name="semester" id="semester" /> <br />
+                <label for="syllabus">Syllabus: </label><br /><input type="text" name="syllabus" id="syllabus" /><br />
+					<input type="button" name="addButton" id="addbutton" value="Lägg till kurs" /> 
+          <p class="radera" id="error"></p>
+
+  </form>
+
+  <div class="footer">
+      <a href="http://localhost:3000/courses" target="_blank">Länk till json-fil</a>
+  </div>
+
+
+  <script src="main.js" defer></script>
+</body>
+</html>
